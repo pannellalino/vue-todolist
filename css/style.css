@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(/img/verdura_frutta.jpg);
+  background-size: 200px 200px;
+}
+
+
+h1{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+li{
+  cursor: pointer;
+}
+
+.task.done span{
+  text-decoration: line-through;
+  color: red;
+}
